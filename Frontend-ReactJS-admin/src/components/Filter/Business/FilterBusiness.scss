@@ -1,0 +1,13 @@
+@import "../../../styles/common.scss";
+
+.select-business-container {
+  display: flex;
+  position: relative;
+
+  .select-business-content {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+}

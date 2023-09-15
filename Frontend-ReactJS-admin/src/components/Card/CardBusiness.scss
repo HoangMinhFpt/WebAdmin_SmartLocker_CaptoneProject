@@ -1,0 +1,91 @@
+@import "../../styles/common.scss";
+
+.container-user-card {
+  width: calc(80% + 24px);
+  margin: 50px 50px 5px 100px;
+
+  .card {
+    border-radius: 10px;
+    border-color: $colormain;
+
+    .card-header {
+      background: $colormain;
+      color: white;
+      height: 60px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      font-size: 35px;
+
+      i {
+        padding: 10px;
+      }
+    }
+
+    .img-content {
+      .img-fluid {
+        margin: 2px;
+      }
+    }
+
+    .card-body {
+      .form-content {
+        border-radius: 7px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        text-align: left;
+
+        .form-phone-content {
+          display: flex;
+          margin-top: 15px;
+        }
+
+        .form-address-content {
+          display: flex;
+          margin-top: 15px;
+
+          .form-address {
+            width: 50%;
+          }
+
+          .form-status-user-content {
+            display: flex;
+            margin-left: 50px;
+
+            .form-status-user {
+              margin-left: 50px;
+              width: 300px;
+              select {
+                height: 40px;
+                font-size: $base-size;
+              }
+            }
+
+            .span-btn {
+              display: flex;
+              width: 60%;
+              margin-top: 35px;
+              margin-left: 40px;
+
+              .btn-save {
+                width: 100px;
+                height: 35px;
+                border-radius: 7px;
+                border: none;
+                background: $colormain;
+                color: white;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+      label {
+        font-size: $base-size + 2px;
+      }
+
+      input {
+        font-size: $base-size;
+      }
+    }
+  }
+}

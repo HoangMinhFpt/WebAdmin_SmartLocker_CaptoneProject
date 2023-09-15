@@ -1,0 +1,28 @@
+@import "../../styles/common.scss";
+
+.modal-cabinetlog-container {
+  .modal-cabinetlog-header {
+    .modal-title {
+      background-color: $colormain;
+      font-size: 25px !important;
+      line-height: 34px !important;
+    }
+
+    button {
+      background-color: transparent !important;
+      border: none;
+      color: white;
+      font-size: 25px;
+    }
+  }
+
+  .modal-cabinetlog-body {
+    font-size: $base-size;
+  }
+
+  .modal-cabinetlog-footer {
+    .btn-accept {
+      background-color: $colormain;
+    }
+  }
+}

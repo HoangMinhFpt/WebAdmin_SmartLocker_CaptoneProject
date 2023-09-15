@@ -1,0 +1,20 @@
+@import "../../../styles/common.scss";
+
+.select-box-container {
+  display: flex;
+  position: relative;
+
+  .icon-content {
+    margin: 5px 10px;
+    font-size: 20px;
+    color: $colormain;
+  }
+
+  .select-box-content {
+    font-size: 20px;
+    border-radius: 5px;
+    height: 35px;
+    width: 175px;
+    margin-right: 10px;
+  }
+}
